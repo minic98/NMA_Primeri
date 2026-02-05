@@ -6,7 +6,10 @@ Primeri iz Naprednih Mikroprocesorskih Arhitektura o paralelnom programiranju
 -----------------------------------------------------------------------------------
 Using gcc compiler. It should be standard with WSL environment.  
 
-Verify with: `echo | cpp -fopenmp -dM | grep -i open`  
+Verify with: 
+``` bash
+    echo | cpp -fopenmp -dM | grep -i open
+```  
 
 To install if it is missing:
 ``` bash
@@ -21,6 +24,8 @@ To limit number of threads used by program: `export OMP_NUM_THREADS=4`  (or `set
 
 ##Run command:
 -----------------------------------------------------------------------------------
-`gcc -fopenmp app.c -o executable_app`  
+``` bash  
+gcc -fopenmp app.c -o executable_app
+```   
 
 
