@@ -29,4 +29,7 @@ To limit number of threads used by program: `export OMP_NUM_THREADS=4`  (or `set
 gcc -fopenmp app.c -o executable_app
 ```   
 
-
+To measure exec time use command from example below:
+``` bash
+/usr/bin/time -f "Elapsed: %e\nCPU: %P\nMax RAM: %M KB" ./exe_program
+```
