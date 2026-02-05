@@ -1,5 +1,6 @@
 # NMA_Primeri
 Primeri iz Naprednih Mikroprocesorskih Arhitektura o paralelnom programiranju
+Dokument: 2-1-OpenMP-primeri.pdf
 
 
 ##How to setup:
