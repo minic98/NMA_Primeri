@@ -29,6 +29,8 @@ int main(int argc, char* argv[]) {
         }
         double pi = 4.0 * (double)num_hits / (double)num_shots;
         printf("3.17 | Vrednost pi=%1.20f \n", pi);
+
+        free(seeds);
     }
         
     // Primer 3.18
