@@ -28,6 +28,10 @@ To limit number of threads used by program: `export OMP_NUM_THREADS=4`  (or `set
 ``` bash  
 gcc -fopenmp app.c -o executable_app
 ```   
+To run primer_3_1516 you need to add switch -lm after source file to link all libs   
+``` bash
+gcc -fopenmp app.c -lm -o executable_app
+```   
 
 To measure exec time use command from example below:
 ``` bash
